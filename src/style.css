@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif !important;
+  padding-bottom: 1000px;
 }
 
 #navbar {
@@ -143,4 +144,45 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.trigger-icon {
+  height: 75.83255767822266px;
+  width: 91.57500457763672px;
+}
+.motivation {
+  margin-left: 215px;
+  margin-top: 283px;
+}
+
+.motivation .container {
+  padding: 0;
+  max-width: 1170px;
+  margin-left: 0px;
+}
+
+.motivation h2 {
+  width: 418px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 90px;
+}
+
+.motivation h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.motivation p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
