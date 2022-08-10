@@ -14,10 +14,15 @@ body {
   );
   display: flex;
   justify-content: space-evenly;
+  padding: 0;
 }
 
 #navbar .active {
   font-weight: 800 !important;
+}
+
+.navbar-nav {
+  margin-left: 60px;
 }
 
 #navbar a {
@@ -26,7 +31,34 @@ body {
   letter-spacing: 0em;
   text-align: center;
   margin-left: 15px;
+  margin-top: 10px;
   align-items: center;
+}
+
+#phone-number {
+  font-size: 14px !important;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.dropdown {
+  margin-top: -10px;
+}
+
+.dropdown-toggle {
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#dropdown-message {
+  padding: 20px;
+  text-align: center;
+  opacity: 0.8;
 }
 
 #basket-icon {
@@ -36,9 +68,8 @@ body {
 }
 
 .logo {
-  width: 256px;
-  margin-left: 205px;
-  margin-top: 10px;
+  width: 245px;
+  margin-left: 165px;
 }
 
 .hero-section {
